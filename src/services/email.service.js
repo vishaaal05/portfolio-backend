@@ -11,7 +11,7 @@ const sendEnquiryEmail = async (enquiry) => {
 
   let mailOptions = {
     from: process.env.EMAIL_USER,
-    to: "vishalkgupta34@gmail.com",
+    to: "vkumargupta668@gmail.com",
     subject: `New enquiry from ${enquiry.name}`,
     text: `New enquiry received:\n\nName: ${enquiry.name}\nEmail: ${enquiry.email}\nMessage: ${enquiry.message}\n\nBest Regards\n `
   };
